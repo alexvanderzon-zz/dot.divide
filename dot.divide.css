@@ -1,0 +1,111 @@
+/*
+dot.divide - http://www.alexvanderzon.com/dotdivide/index.html
+
+
+Copyright (c) 2012 Alex Vanderzon (@alexvanderzon)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+*/
+
+
+/* Divider Styles */
+
+div.csszero {
+	height: 1px;
+	background-color: rgba(0,0,0,.2);
+	margin-bottom: 42px;
+	margin-top: 12px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.cssone {
+	height: 3px;
+	background-color: rgba(0,0,0,0.1);
+	margin-bottom: 42px;
+	margin-top: 12px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.csstwo {
+	height: 2px;
+	border-bottom: 2px dashed rgba(0,0,0,0.1);
+	margin-bottom: 42px;
+	margin-top: 12px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.cssthree {
+	height: 3px;
+	border-bottom: 3px dotted rgba(0,0,0,0.1);
+	margin-bottom: 42px;
+	margin-top: 12px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.cssfour {
+	height: 1px;
+	background-color: rgba(0,0,0,0.05);
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+	margin-bottom: 42px;
+	margin-top: 12px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.cssfive {
+  	width: 90%;
+	height: 1px;
+	margin-bottom: 42px;
+	margin-top: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: #d6d5d7;*/
+	background-image: -webkit-gradient(radial, 50% 50%,0,50% 50%,200, from(rgba(255, 255, 255, 0.00)), to(rgba(214, 213, 215, 1.00)));
+	background-image: -webkit-radial-gradient(50% 50%, rgba(214, 213, 215, 1.00), rgba(255, 255, 255, 0.00));
+	background-image: -moz-radial-gradient(50% 50%, rgba(214, 213, 215, 1.00), rgba(255, 255, 255, 0.00));
+	background-image: -o-radial-gradient(50% 50%, rgba(214, 213, 215, 1.00), rgba(255, 255, 255, 0.00));
+	background-image: -ms-radial-gradient(50% 50%, rgba(214, 213, 215, 1.00), rgba(255, 255, 255, 0.00));
+	background-image: radial-gradient(50% 50%, rgba(214, 213, 215, 1.00), rgba(255, 255, 255, 0.00));
+
+}
+
+div.csssix {
+  	width: 90%;
+	height: 1px;
+	margin-bottom: 42px;
+	margin-top: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	/*background-color: #ffffff;*/
+	background-image: -webkit-gradient(radial, 50% 50%,0,50% 50%,200, from(rgba(214, 213, 215, 1.00)), to(rgba(255, 255, 255, 0.00)));
+	background-image: -webkit-radial-gradient(50% 50%, rgba(255, 255, 255, 0.00), rgba(214, 213, 215, 1.00));
+	background-image: -moz-radial-gradient(50% 50%, rgba(255, 255, 255, 0.00), rgba(214, 213, 215, 1.00));
+	background-image: -o-radial-gradient(50% 50%, rgba(255, 255, 255, 0.00), rgba(214, 213, 215, 1.00));
+	background-image: -ms-radial-gradient(50% 50%, rgba(255, 255, 255, 0.00), rgba(214, 213, 215, 1.00));
+	background-image: radial-gradient(50% 50%, rgba(255, 255, 255, 0.00), rgba(214, 213, 215, 1.00));
+	
+}
+
+div.cssseven {
+	width: 90%;
+	height: 1px;
+	margin-bottom: 42px;
+	margin-top: 12px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 1px dashed #ccc;
+}
